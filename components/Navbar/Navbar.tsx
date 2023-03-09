@@ -15,9 +15,6 @@ const Navbar = () => {
                                     <span style={{color:"white"}}><b>Home</b></span>
                                 </a>
                                 <ul className=" dropdown-men">
-
-
-
                                     <li><a className="dropdown-item" href="#">Main Home</a></li>
                                     <li><a className="dropdown-item" href="#">Creative Studio</a></li>
                                     <li><a className="dropdown-item" href="#">Bussiness Startup</a></li>
