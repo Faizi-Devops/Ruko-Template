@@ -1,5 +1,9 @@
+<<<<<<< HEAD
 import Form from '@/components/Form';
 import Navbar from '@/components/Navbar/Navbar';
+=======
+import Form from '@/components/kuch';
+>>>>>>> c9285348108f74baa287daf15fe58dceecd61e67
 
 import Image from 'next/image';
 import styles from '../styles/Contact.module.css';
