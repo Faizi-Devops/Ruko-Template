@@ -1,7 +1,62 @@
 .backgroundall{
     background-color: #0a131a;
-    height: 100vh;
+   
+}
+.one{
+    width: 86%;
+    margin: auto;
 }
 .mainHeading{
+    color: white;
+    font-weight: bolder;
+    font-size: 50px;
+    padding-top: 200px;
+}
+
+.two{
+    padding-top: 10px;
+    color: #a3a3a3;
+}
+.three{
+    padding-top: 80px;
+    width: 78%;
+    margin: auto;
+
+}
+@media only screen and (max-width: 600px) {
+    .three {
+        width: 86%;
+    margin: auto;
+        
+      
+    }
+  }
+  .paraone{
+    color: white;
+    font-size: 12px;
+  }
+  .paratwo{
+    font-size: 30px;
+    /* font-weight: bold; */
+    color: white;
+    font-family: 'Poppins', sans-serif;
+
+}
+.parathree{
+    color:#a3a3a3;
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
     
+    line-height: 2;
+}
+.bootbutton{
+    height: 40px;
+    text-align: left;
+    color: white;
+    background-color:rgba(255, 255, 255, 0.05);
+    
+}
+.backbutton{
+color: ;
+
 }
