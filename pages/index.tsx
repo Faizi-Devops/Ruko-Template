@@ -2,11 +2,11 @@ import Head from 'next/head'
 import Image from 'next/image'
 import { Inter } from '@next/font/google'
 import styles from '@/styles/Home.module.css'
-<<<<<<< HEAD
+
 import Blog from './Blog'
-=======
+
 import Contact from './Contact'
->>>>>>> 332e4cdcc332b5bdfc947aa2f428723398c0aade
+
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -19,12 +19,12 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-<<<<<<< HEAD
-      <Blog />
+
+      {/* <Blog /> */}
      
-=======
+
      <Contact />
->>>>>>> 332e4cdcc332b5bdfc947aa2f428723398c0aade
+
     </>
   )
 }
