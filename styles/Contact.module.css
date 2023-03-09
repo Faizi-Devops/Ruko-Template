@@ -2,7 +2,7 @@
     background-color: #0a131a;
     color: white;
     padding-top: 120px;
-    padding-left: 150px;
+    /* padding-left: 150px; */
     padding-bottom: 150px;
     
 }
@@ -16,8 +16,9 @@
 .fmain{
     background-color: #0a131a;
     color: white;
-    padding-left: 150px;
+    /* padding-left: 150px; */
     padding-top: 150px;
+    display: flex;
 }
 .get{
     font-size: 30px;
@@ -27,4 +28,35 @@
     background: transparent;
     border: none;
     outline: none;
+    color: white;
+}
+.textarea{
+    background: transparent;
+    outline: none;
+    width: 37%;
+    height: 130px;
+    color: white;
+    display: inherit
+}
+.line{
+    width: 37%;
+}
+.left{
+    width: 50%;
+}
+.btn{
+    border: 1px solid white;
+    color: white;
+    background: transparent;
+    margin-top: 20px;
+    padding: 7px 7px 7px 7px;
+}
+.right{
+    width: 50%;
+}
+.tv{
+    margin-top: 55px;
+}
+.dull{
+    color: rgb(153, 153, 153);
 }
