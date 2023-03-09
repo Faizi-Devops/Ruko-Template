@@ -24,32 +24,19 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>  
-      <Footer />  
+      {/* <Footer />   */}
 
-<<<<<<< HEAD
+
      <Contact />
+     {/* <Blog /> */}
+     
   
-     
-
-
-  
-      {/* <Navbar /> */}
-     
-
-     {/* <Contact /> */}
-
-      {/* <Blog /> */}
-     
-
-     {/* <Contact /> */}
-=======
     
 
       
      
 
-      <script src="https://kit.fontawesome.com/bd5b7292a2.js" crossOrigin="anonymous"></script>
->>>>>>> c9285348108f74baa287daf15fe58dceecd61e67
+      
 
 
     </>
