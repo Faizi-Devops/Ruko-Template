@@ -1,6 +1,17 @@
 .backgroundall{
     background-color: #0a131a;
+    
    
+}
+.purely{
+    width: 86%;
+    margin: auto;
+    
+    
+}
+.purerapper{
+    width: 100%;
+    background-color: #0A131A;
 }
 .one{
     width: 86%;
@@ -10,7 +21,7 @@
     color: white;
     font-weight: bolder;
     font-size: 50px;
-    padding-top: 200px;
+    padding-top: 170px;
 }
 
 .two{

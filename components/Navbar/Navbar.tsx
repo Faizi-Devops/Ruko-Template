@@ -1,7 +1,8 @@
 const Navbar = () => {
     return (
-        <div className="container">
-            <nav className="navbar navbar-expand-lg bg-body-tertiary navbackground">
+        <div>
+            
+            <nav className="navbar navbar-expand-lg bg-body-tertiary">
                 <div className="container-fluid">
                     <a className="navbar-brand" href="#"> <b style={{color:"white"}}>Ruko</b></a>
                     <button className="navbar-toggler" style={{color:"white"}} type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
