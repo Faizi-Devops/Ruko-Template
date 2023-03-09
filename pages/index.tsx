@@ -5,7 +5,10 @@ import styles from '@/styles/Home.module.css'
 
 import Blog from './Blog'
 
+
 import Contact from './Contact'
+
+
 
 
 const inter = Inter({ subsets: ['latin'] })
@@ -19,11 +22,17 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
+<<<<<<< HEAD
 
       {/* <Blog /> */}
      
 
      <Contact />
+=======
+      <Blog />
+     
+     {/* <Contact /> */}
+>>>>>>> 0f470c66bbb1c64081455cbd8d1434b8b374b841
 
     </>
   )
