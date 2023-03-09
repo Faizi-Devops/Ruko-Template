@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "../styles/Contact.module.css";
 import Image from "next/image";
-import { Img } from "@chakra-ui/react";
+
 
 export default function Form() {
   return (

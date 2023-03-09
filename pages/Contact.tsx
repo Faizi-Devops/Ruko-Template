@@ -1,4 +1,4 @@
-import Form from '@/components/Form';
+import Form from '@/components/kuch';
 
 import Image from 'next/image';
 import styles from '../styles/Contact.module.css';
