@@ -1,17 +1,8 @@
 /* navbar */
-.nav1{
-    color: white;
-    margin-left: 30px;
+.navbackground{
+    background-color: #0A131A;
 }
-.hor{
-    color:white;
-}
-
-.container{
-    background-color: #0a131a;
-}
-.drop1{
-  background-color: rgb(26, 30, 37);  
-}
-
-
+.dropdown-menu {
+    background-color: #333; /* set the background color */
+    color: #fff; /* set the font color */
+  }
