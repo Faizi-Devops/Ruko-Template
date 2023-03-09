@@ -25,17 +25,17 @@ export default function Home() {
       </Head>    
 
      <Contact />
-      {/* <Blog /> */}
+  
      
 
 
-      {/* <Blog /> */}
+  
       {/* <Navbar /> */}
      
 
      {/* <Contact /> */}
 
-      <Blog />
+      {/* <Blog /> */}
      
 
      {/* <Contact /> */}

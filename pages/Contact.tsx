@@ -1,11 +1,13 @@
 import Form from '@/components/Form';
+import Navbar from '@/components/Navbar/Navbar';
 
 import Image from 'next/image';
 import styles from '../styles/Contact.module.css';
 const Contact = () =>{
     return(
         <div>
-           
+          <div className={`${styles.navclr}`}> <Navbar/></div>
+
          
           <div className={`${styles.Contact_main}`}>
            <h4 className={`${styles.mtext}`}> 
