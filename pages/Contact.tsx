@@ -10,7 +10,12 @@ import styles from '../styles/Contact.module.css';
 const Contact = () =>{
     return(
         <div>
-          <div> <Navbar/></div>
+          <div className={` sticky-top ${styles.purerapper}`}>
+            <div className={`${styles.purely}`}>
+            <Navbar />
+
+            </div>
+            </div>
 
          
           <div className={`${styles.Contact_main}`}>

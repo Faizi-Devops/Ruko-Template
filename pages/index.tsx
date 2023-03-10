@@ -12,6 +12,7 @@ import Blog from './Blog'
 import Contact from './Contact'
 import Navbar from '@/components/Navbar/Navbar'
 import Footer from '@/components/Footer/Footer'
+import Slider from '@/components/Slider/Slider'
 
 
 
@@ -33,8 +34,10 @@ export default function Home() {
       {/* <Footer />  
 
 
-     <Contact /> */}
-     <Blog />
+     
+     {/* <Blog /> */}
+     {/* <Contact /> */}
+     <Slider />
   
      
 
