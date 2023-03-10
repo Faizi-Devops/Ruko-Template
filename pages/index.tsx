@@ -13,6 +13,7 @@ import Contact from './Contact'
 import Navbar from '@/components/Navbar/Navbar'
 import Footer from '@/components/Footer/Footer'
 import Slider from '@/components/Slider/Slider'
+import About from './About'
 
 
 
@@ -29,16 +30,16 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
         </Head>
-        
+        {/* <About/> */}
       
        <Footer />  
 
 
-    
+    {/* <Slider/> */}
   
      
 
-
+{/* <Blog/> */}
       
      
 
