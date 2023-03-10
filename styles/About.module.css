@@ -1,0 +1,42 @@
+.aboutmain{
+    background-color: #0A131A;
+}
+.text{
+    line-height: 1.6;
+    font-weight: 900;
+    font-size: 30px;
+}
+.bold{
+    color: transparent;
+    display: inline-block;
+    font-weight: 900;
+    font-size: 30px;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #fff;
+}
+.about{
+    color: transparent;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #fff;
+    position: relative;
+    top: 319px;
+    display: flex;
+    justify-content: flex-end;
+ font-size: 100px;
+ font-weight: 900;
+}
+.whowe{
+    background-color: #0A131A;
+    padding-top: 200px;
+    color: white;
+}
+.wtext{
+    margin-top: 5px;
+}
+@media only screen and (max-width: 768px) {
+    .row > div[class*='col-'] {
+      margin-top: 10px;
+    }
+  }
+  
+  
