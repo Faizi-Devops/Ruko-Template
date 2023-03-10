@@ -54,7 +54,7 @@ const Footer = () =>{
             <p className="Otext" style={{fontSize:'13px'}}>The Start-Up Ultimate Guide to <br/>  Make Your WordPress Journal.Your WordPress Journal</p>
             <p className="green" >14 JAN 2022</p>
         </div> 
-                   
+
     </div>
     <div className="inputmain" style={{position:'absolute'}}>
         <input type="email" className="inputt" placeholder="Type Your Email" />
@@ -78,7 +78,7 @@ const Footer = () =>{
                </div>
 
             </div>
-           
+
 
 
     )
