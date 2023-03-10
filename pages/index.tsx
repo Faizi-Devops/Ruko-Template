@@ -30,23 +30,23 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
         </Head>
-        {/* <About/> */}
+        <About/>
       
-       <Footer />  
+       {/* <Footer />   */}
 
 
-<<<<<<< HEAD
+
     {/* <Slider/> */}
-=======
+
 
      
      {/* <Blog /> */}
      {/* <Contact /> */}
-     <Slider />
+     {/* <Slider /> */}
      {/* <Contact />  */}
      {/* <Blog /> */}
 
->>>>>>> f4035f798bee3ac63f9a04cbd91f43d0727b3797
+
   
      
 

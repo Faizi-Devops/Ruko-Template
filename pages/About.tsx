@@ -32,53 +32,130 @@ const About = () => {
       </div>
 
       <div className={`${styles.whowe}`}>
-  <div className="container">
-    <div className="row">
-      <div className="col-lg-2 col-md-6 col-sm-12 col-12"><h4 className={`${styles.wtext}`}>Who We Are?</h4></div>
-      <div className="col-lg-10 col-md-6 col-sm-12 col-12" >
-        <p style={{fontSize:'16px'}}>        We develop creative solutions for small and big brands alike, build authentic product Identities and much more.Lorem ipsum dolor sit amet, consectetur adipiscing elit sit non facilisis vitae eu. Ultrices ut diam morbi risus dui, nec eget at lorem in id tristique in elementum leo nisi eleifend placerat magna lacus elementum ornare vehicula odio posuere quisque ultrices tempus cras id blandit maecenas in ornare quis dolor tempus risus vitae feugiat fames aliquet sed.
-</p>
-      </div>
-    </div>
-  </div>
-  <div className={`${styles.cards}`}>
-    <div className="row">
-        <div className="col-lg-4 col-md-6 col-sm-12">
-        <div className="card" style={{width: '18rem'}}>
-  <div className="card-body">
-    <h5 className="card-title">Card title</h5>
-    <h6 className="card-subtitle mb-2 text-muted">Card subtitle</h6>
-    <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-    <a href="#" className="card-link">Card link</a>
-    <a href="#" className="card-link">Another link</a>
-  </div>
-</div>
+        <div className="container">
+          <div className="row">
+            <div className="col-lg-2 col-md-6 col-sm-12 col-12">
+              <h4 className={`${styles.wtext}`}>Who We Are?</h4>
+            </div>
+            <div className="col-lg-10 col-md-6 col-sm-12 col-12">
+              <p style={{ fontSize: "16px" }}>
+                {" "}
+                We develop creative solutions for small and big brands alike,
+                build authentic product Identities and much more.Lorem ipsum
+                dolor sit amet, consectetur adipiscing elit sit non facilisis
+                vitae eu. Ultrices ut diam morbi risus dui, nec eget at lorem in
+                id tristique in elementum leo nisi eleifend placerat magna lacus
+                elementum ornare vehicula odio posuere quisque ultrices tempus
+                cras id blandit maecenas in ornare quis dolor tempus risus vitae
+                feugiat fames aliquet sed.
+              </p>
+            </div>
+          </div>
         </div>
-        <div className="col-lg-4 col-md-6 col-sm-12"><div className="card" style={{width: '18rem'}}>
+        <div className="container">
+          <div className={`${styles.cards}`}>
+            <div className="row">
+              <div className="col-lg-4 col-md-6 col-sm-12">
+                <div
+                  className="card"
+                  style={{
+                    width: "18rem",
+                    backgroundColor: "#121a21",
+                    marginTop: "20px",
+                  }}
+                >
+                  <div className="card-body" style={{ padding: "35px" }}>
+                    <Image
+                      src="/thunder.png"
+                      alt="im"
+                      width={200}
+                      height={200}
+                      style={{ width: "40px", height: "40px" }}
+                    />
+                    <div className={`${styles.ctitle}`}>Digital Marketing</div>
+                    <p className={`${styles.ctext}`}>
+                      Tempore corrupti temporibus fuga earum asperiores fugit
+                      laudantium Tempore corrupti temporibus fuga earum
+                      asperiores fugit laudantium.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div className="col-lg-4 col-md-6 col-sm-12">
+                <div
+                  className="card"
+                  style={{
+                    width: "18rem",
+                    backgroundColor: "#121a21",
+                    marginTop: "20px",
+                  }}
+                >
+                  <div className="card-body" style={{ padding: "35px" }}>
+                    <Image
+                      src="/phone.png"
+                      alt="im"
+                      width={200}
+                      height={200}
+                      style={{ width: "40px", height: "40px" }}
+                    />
+                    <div className={`${styles.ctitle}`}>Web development</div>
+                    <p className={`${styles.ctext}`}>
+                      Tempore corrupti temporibus fuga earum asperiores fugit
+                      laudantium Tempore corrupti temporibus fuga earum
+                      asperiores fugit laudantium.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div className="col-lg-4 col-md-12 col-sm-12">
+                <div
+                  className="card"
+                  style={{
+                    width: "18rem",
+                    backgroundColor: "#121a21",
+                    marginTop: "20px",
+                  }}
+                >
+                  <div className="card-body" style={{ padding: "35px" }}>
+                    <Image
+                      src="/magic.png"
+                      alt="im"
+                      width={200}
+                      height={200}
+                      style={{ width: "40px", height: "40px" }}
+                    />
+                    <div className={`${styles.ctitle}`}>Graphic Desinghing</div>
+                    <p className={`${styles.ctext}`}>
+                      Tempore corrupti temporibus fuga earum asperiores fugit
+                      laudantium Tempore corrupti temporibus fuga earum
+                      asperiores fugit laudantium.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className={`${styles.client}`}>
+        <h3 className={`${styles.textc}`}>
+            So that's us , there is no other way to putit
+        </h3>
+        <div className="card" style={{width: '30rem', height:'20rem', position:'relative', left:'500px' , top:'200px',backgroundColor:'#75dab4' , padding:'50px'}}>
   <div className="card-body">
-    <h5 className="card-title">Card title</h5>
-    <h6 className="card-subtitle mb-2 text-muted">Card subtitle</h6>
-    <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-    <a href="#" className="card-link">Card link</a>
-    <a href="#" className="card-link">Another link</a>
-  </div>
-</div></div>
-        <div className="col-lg-4 col-md-12 col-sm-12"><div className="card" style={{width: '18rem'}}>
-  <div className="card-body">
-    <h5 className="card-title">Card title</h5>
-    <h6 className="card-subtitle mb-2 text-muted">Card subtitle</h6>
-    <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-    <a href="#" className="card-link">Card link</a>
-    <a href="#" className="card-link">Another link</a>
-  </div>
-</div></div>
+    <h5>Our Happy client</h5>
+    <h4>What Clinet's Say?</h4>
+    <p className="card-text">Nulla metus ullamcorper vell tincident sed euesmod nibh valutpat vellit class aptent taciti socioosqu ad litora.</p>
+   <div className="img">
+    <div className="men">
+    <Image src="/sm.jpg" width={200} height={200} style={{ width: '48px', height: '50px', borderRadius: '50px' }} alt={""} />
+    ALEX RAGELMEN 
     </div>
 
+   </div>
+  </div>
 </div>
-</div>
-
-
-
+      </div>
     </>
   );
 };

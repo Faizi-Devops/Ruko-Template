@@ -28,15 +28,45 @@
 .whowe{
     background-color: #0A131A;
     padding-top: 200px;
-    color: white;
+    color: #a3a3a3;
 }
 .wtext{
     margin-top: 5px;
+    color: white;
 }
 @media only screen and (max-width: 768px) {
     .row > div[class*='col-'] {
       margin-top: 10px;
     }
   }
-  
+.ctitle{
+    font-size: 20px;
+    font-weight: 800;
+    line-height: 4;
+}  
+.ctext{
+    color: #a3a3a3;
+}
+.cards{
+padding-top: 100px;
+}
+.card{
+    margin-top: 20px;
+}
+.client{
+   
+    padding-top: 300px;
+    padding-bottom: 300px;
+    background-image: url('/bg.jpg');
+    background-size: cover;
+ 
+
+}
+.textc{
+    font-size: 45px;
+    font-weight: 700;
+    color: black;
+    width: 50%;
+    margin-left: 83px;
+}
   
