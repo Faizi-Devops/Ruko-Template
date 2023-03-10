@@ -30,11 +30,11 @@ export default function Home() {
         </Head>
         
       
-      {/* <Footer />  
+       <Footer />  
 
 
-     <Contact /> */}
-     <Blog />
+     {/* <Contact />  */}
+     {/* <Blog /> */}
   
      
 

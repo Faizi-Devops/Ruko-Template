@@ -10,8 +10,7 @@ import styles from '../styles/Contact.module.css';
 const Contact = () =>{
     return(
         <div>
-          <div> <Navbar/></div>
-
+          <Navbar/>
          
           <div className={`${styles.Contact_main}`}>
            <div className="container">
