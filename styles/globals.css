@@ -69,5 +69,19 @@
     border-radius: 50px;
     bottom: 2px;
 }
-  
+.licons{
+    border: 1px solid gray;
+    color: transparent;
+    width: 45px;
+    height: 44px;
+    padding: 13px;
+    border-radius: 50px;
 
+}
+  /* media */
+  @media screen and (max-width: 768px) and (min-width: 200px) {
+    .fmain1 {
+      width: 40%;
+    }
+  }
+  
