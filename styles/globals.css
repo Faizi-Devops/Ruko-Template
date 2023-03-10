@@ -77,12 +77,9 @@
     padding: 13px;
     border-radius: 50px;
 
-<<<<<<< HEAD
+
   /* SLider css */
-.backgroundimage{
-  background-image: url('/blog1.jpg');
-}
-=======
+
 }
   /* media */
   @media screen and (max-width: 768px) and (min-width: 200px) {
@@ -91,4 +88,3 @@
     }
   }
   
->>>>>>> c7c52c735d6312b165b951ee9aa2b2d95f1078fa
