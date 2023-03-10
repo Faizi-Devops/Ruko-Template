@@ -35,7 +35,18 @@ export default function Home() {
        <Footer />  
 
 
+<<<<<<< HEAD
     {/* <Slider/> */}
+=======
+
+     
+     {/* <Blog /> */}
+     {/* <Contact /> */}
+     <Slider />
+     {/* <Contact />  */}
+     {/* <Blog /> */}
+
+>>>>>>> f4035f798bee3ac63f9a04cbd91f43d0727b3797
   
      
 
