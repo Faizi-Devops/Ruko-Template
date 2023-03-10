@@ -13,7 +13,7 @@
   /* #0A131A */
   .fottermain{
     height: 100vh;
-    background-color:red;
+    background-color: #0A131A;
   }
   .footerone{
     padding-top: 60px;
@@ -34,8 +34,61 @@
     color: white;
     
   }
+  .office{
+    color: white;
+  }
+  .Otext{
+    color: rgb(153, 153, 153);
+    font-weight: 500;
+  }
+  .green{
+    color: #75dab4;
+    font-size: 12px;
+  }
+  .inputt{
+    background: transparent;
+    outline: none;
+    border-radius: 50px;
+    border: 1px solid gray;
+    color: white;
+    padding: 7px 10px 7px 10px;
+    width: 400px;
+}
+.flast{
+    display: flex;
+    justify-content: space-between;
+}
+.send{
+    color: transparent;
+    width: 36px;
+    height: 36px;
+    position: relative;
+    margin-left: -38px;
+    background-color: #75dab4;
+    padding: 13px;
+    border-radius: 50px;
+    bottom: 2px;
+}
+.licons{
+    border: 1px solid gray;
+    color: transparent;
+    width: 45px;
+    height: 44px;
+    padding: 13px;
+    border-radius: 50px;
 
+<<<<<<< HEAD
   /* SLider css */
 .backgroundimage{
   background-image: url('/blog1.jpg');
 }
+=======
+}
+  /* media */
+  @media screen and (max-width: 768px) and (min-width: 200px) {
+    .fmain1 {
+      width: 40%;
+    }
+  }
+  
+>>>>>>> c7c52c735d6312b165b951ee9aa2b2d95f1078fa
