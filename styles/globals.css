@@ -12,19 +12,19 @@
   /* Footer css */
   /* #0A131A */
   .fottermain{
-    height: 100vh;
-    background-color: #0A131A;
+    height:auto;
+    background-color: #121a21;
   }
   .footerone{
-    padding-top: 60px;
-    width: 84%;
+    padding-top: 70px;
+    width: 90%;
     margin: auto;
     
   }
   .footerparaone{
     font-family: 'Poppins', sans-serif;
     font-weight: bold;
-    font-size: 27px;
+    font-size: 23px;
     color: white;
   }
   .footerparatwo{
@@ -41,9 +41,12 @@
     color: rgb(153, 153, 153);
     font-weight: 500;
   }
+
   .green{
     color: #75dab4;
     font-size: 12px;
+    position: relative;
+    bottom: 8px;
   }
   .inputt{
     background: transparent;
@@ -52,22 +55,23 @@
     border: 1px solid gray;
     color: white;
     padding: 7px 10px 7px 10px;
-    width: 400px;
+    width: 300px;
+    height: 47px;
 }
 .flast{
     display: flex;
-    justify-content: space-between;
+    
 }
 .send{
-    color: transparent;
-    width: 36px;
-    height: 36px;
-    position: relative;
-    margin-left: -38px;
-    background-color: #75dab4;
-    padding: 13px;
-    border-radius: 50px;
-    bottom: 2px;
+  color: transparent;
+  width: 44px;
+  height: 46px;
+  position: relative;
+  margin-left: -45px;
+  background-color: #75dab4;
+  padding: 14px;
+  border-radius: 50px;
+  bottom: 3px;
 }
 .licons{
     border: 1px solid gray;
@@ -75,17 +79,28 @@
     width: 45px;
     height: 44px;
     padding: 13px;
+    margin-right: 2px;
     border-radius: 50px;
-
-
-
   /* SLider css */
 
+
+
+}
+.licons:not(:last-child) {
+  margin-right: 10px;
 }
   /* media */
   @media screen and (max-width: 768px) and (min-width: 200px) {
     .fmain1 {
       width: 40%;
     }
+  }
+
+  /* new Footer css */
+
+  .footterone{
+    padding-top: 50px;
+    width: 86%;
+    margin: auto;
   }
   

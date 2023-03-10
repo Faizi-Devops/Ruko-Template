@@ -5,6 +5,7 @@ import 'aos/dist/aos.css';
 
 import Navbar from '@/components/Navbar/Navbar';
 import { useEffect } from 'react';
+import Footer from '@/components/Footer/Footer';
 const Blog = () => {
     useEffect(() => {
         AOS.init();
@@ -100,6 +101,11 @@ const Blog = () => {
 
 
             </div>
+            <div className='mt-5'>
+            <Footer />
+
+            </div>
+            
            
 
 
