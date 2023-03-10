@@ -1,4 +1,5 @@
 
+import Footer from '@/components/Footer/Footer';
 import Form from '@/components/Form';
 import Navbar from '@/components/Navbar/Navbar';
 
@@ -18,7 +19,7 @@ const Contact = () =>{
             </div>
 
 
-          <Navbar/>
+        
 
          
           <div className={`${styles.Contact_main}`}>
@@ -33,6 +34,11 @@ const Contact = () =>{
            <Image src="/about.jpg" alt="My Image" width={500} height={500}  style={{ width: '100%' , height: 'auto' }} />
 
            <Form/>
+           <div>
+          <Footer />
+           </div>
+           
+           
 
         </div>
     )

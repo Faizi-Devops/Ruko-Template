@@ -36,7 +36,7 @@ export default function Home() {
         </Head>
         {/* <About/> */}
       
-       <Footer />
+       <Blog />
 
     
 

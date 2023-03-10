@@ -1,3 +1,4 @@
+import Link from 'next/link'
 const Navbar = () => {
     return (
         <div>
@@ -23,7 +24,7 @@ const Navbar = () => {
                             </li> */}
                              <li className="nav-item dropdown">
                                 <a className="nav-link dropdown-toggle" style={{color:"white"}} href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                <span style={{color:"white"}}><b>Portfolio</b></span>
+                                <span style={{color:"white"}}><b>Home</b></span>
                                 </a>
                                 <ul className="dropdown-menu">
                                     <li><a className="dropdown-item" href="#">Main Home</a></li>
@@ -53,12 +54,12 @@ const Navbar = () => {
                             </li>
                             <li className="nav-item">
                             <a className="nav-link" href="#">
-                            <span style={{color:"white"}}><b>Blogs</b></span>
+                            <span style={{color:"white"}}><b><Link href="/Blog" style={{textDecoration:"none",color:"white"}}>Blogs</Link></b></span>
                             </a>
                             </li>
                             <li className="nav-item">
                             <a className="nav-link" href="#">
-                            <span style={{color:"white"}}><b>Contact</b></span>
+                            <span style={{color:"white"}}><b><Link href="/Contact" style={{textDecoration:"none",color:"white"}}>Contact</Link></b></span>
                             </a>
                             </li>
                         </ul>
