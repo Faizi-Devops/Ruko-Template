@@ -34,15 +34,14 @@ export default function Home() {
        <Footer />  
 
 
-<<<<<<< HEAD
+
      
      {/* <Blog /> */}
      {/* <Contact /> */}
      <Slider />
-=======
      {/* <Contact />  */}
      {/* <Blog /> */}
->>>>>>> c7c52c735d6312b165b951ee9aa2b2d95f1078fa
+
   
      
 
