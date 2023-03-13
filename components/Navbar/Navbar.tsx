@@ -37,7 +37,7 @@ const Navbar = () => {
                             
                             <li className="nav-item">
                                 <a className="nav-link" href="#">
-                                <span style={{color:"white"}}><b>About</b></span>
+                                <span style={{color:"white"}}><b><Link href="/About" style={{textDecoration:"none",color:"white"}}>About</Link></b></span>
                                 </a>
                             </li>
                             <li className="nav-item dropdown">

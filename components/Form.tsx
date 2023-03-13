@@ -1,9 +1,28 @@
-import React from "react";
+import React, { useState } from "react";
 import styles from "../styles/Contact.module.css";
 import Image from "next/image";
 
 
 export default function Form() {
+  const [naming,setNaming]=useState("")
+  const [mailing,setMailing]=useState("")
+  const [messaging,setMessaging]=useState("")
+
+
+  const alpha = (e:any) =>{
+    console.log(e.target.value)
+
+  }
+  const beta = (e:any) =>{
+    console.log(e.target.value)
+
+
+  }
+  const gema = (e:any) =>{
+    console.log(e.target.value)
+
+  }
+
   return (
     <>
       <div className={`${styles.fmain}`}>
@@ -14,17 +33,14 @@ export default function Form() {
               <input
                 type="text"
                 placeholder="Name"
-                className={`${styles.iname}`}
+                className={`${styles.iname}`} onChange={alpha}
               />
               <hr className={`${styles.line}`} />
-              <input
-                type="text"
-                placeholder="Email"
-                className={`${styles.iname}`}
+              <input type="text" placeholder="Email" className={`${styles.iname}`} onChange={beta}
               />
               <hr className={`${styles.line}`} />
 
-              <textarea className={`${styles.textarea}`}></textarea>
+              <textarea className={`${styles.textarea}`} onChange={gema}></textarea>
               <button className={`${styles.btn}`}>send message</button>
             </div>
 

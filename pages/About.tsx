@@ -1,10 +1,15 @@
 import React from "react";
 import Image from "next/image";
 import styles from "../styles/About.module.css";
+import Navbar from "@/components/Navbar/Navbar";
 const About = () => {
   return (
     <>
-      <div className={`${styles.aboutmain}`}>
+      <div className={`${styles.aboutmain} `}>
+      <div className={`${styles.purely} sticky-top`}>
+            <Navbar />
+
+            </div>
         <div
           className="container"
           style={{
